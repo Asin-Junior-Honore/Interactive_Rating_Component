@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  background: rgb(3, 16, 50);
+  position: relative;
+  height: 40rem;
+  margin: 3rem auto;
+}
+
+.first-box {
+  /* display: none; */
+  width: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 315px;
+  border-radius: 15px;
+  background-color: #121282;
+  margin: auto;
+  padding: 20px 40px 5px 20px;
+}
+
+.first-box img {
+  padding: 15px;
+  border: none;
+  background-color: #4949a5;
+  border-radius: 50%;
+}
+
+.first-box h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.first-box p {
+  padding-bottom: 10px;
+  font-size: 13px;
+  color: #c9baba;
+  line-height: 20px;
+  letter-spacing: 0.11px;
+}
+
+.btns {
+  padding: 10px 0px 5px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btns button {
+  border: none;
+  background-color: #4949a5;
+  padding: 15px 20px 15px 20px;
+  color: white;
+  border-radius: 50%;
+}
+
+.btns button:hover {
+  background-color: darkorange;
+  transition: 0.3s ease;
+}
+
+.btns button:focus {
+  color: black;
+  background-color: white;
+}
+
+#basebtn {
+  width: 100%;
+  border-radius: 25px;
+  padding: 10px 10px 5px 10px;
+  background: darkorange;
+  margin-top: 20px;
+  border: none;
+}
+
+#basebtn:hover {
+  background: white;
+  transition: 0.3s ease;
+  color: darkorange;
+}
+
+#basebtn p {
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+}
+
+#basebtn p:hover {
+  color: darkorange;
+}
+
+.second-box {
+  display: none;
+  width: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 315px;
+  border-radius: 15px;
+  background-color: #121282;
+  margin: auto;
+  padding: 20px 40px 5px 20px;
+}
+
+.second-box img {
+  margin: auto;
+  display: block;
+  padding: 10px 0px 25px 0px;
+}
+
+.second-box #first-para {
+  color: darkorange;
+  padding: 5px 20px 5px 20px;
+  border-width: 2px;
+  background-color: #4949a5;
+  text-align: center;
+  font-size: 13px;
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.second-box h2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.second-box #last-para {
+  padding-bottom: 10px;
+  padding-top: 3px;
+  color: #c9baba;
+  padding-right: -2px;
+  line-height: 20px;
+  letter-spacing: 0.11px;
+  text-align: center;
+  font-size: 13px;
+  padding-left: 2px;
+}
