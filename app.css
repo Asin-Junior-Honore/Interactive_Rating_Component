@@ -8,8 +8,8 @@
 .container {
   background: rgb(3, 16, 50);
   position: relative;
-  height: 40rem;
-  margin: 3rem auto;
+  height: 100vh;
+  margin: 0rem auto;
 }
 
 .first-box {
